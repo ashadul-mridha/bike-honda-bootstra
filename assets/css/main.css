@@ -1,0 +1,56 @@
+/* common css */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-orange{
+    color: #E76F51;
+}
+.btn-orange{
+    color: #ffffff;
+    padding: 10px 48px;
+    background: #E76F51;
+    border-radius: 5px;
+}
+
+/* header css */
+
+header{
+    background: #264653;
+
+}
+
+.hero-content h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+/* feature area css */
+
+.gray-scale{
+    filter: grayscale(100%);
+}
+
+/* faind a deller area css */
+
+.find-deller-area{
+    background-image: url('../images/map-location.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+}
+
+/* footer  */
+footer{
+    background: #264653;
+
+}
+
+.buy-car{
+    filter: blur(50%);
+}
